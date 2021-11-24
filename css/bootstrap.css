@@ -2823,7 +2823,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: ##007200;
+  color: black;
+  background-color: #007200;
   background-image: none;
   border-color: #6c757d;
 }
