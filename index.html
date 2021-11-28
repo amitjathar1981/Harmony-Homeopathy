@@ -1,242 +1,183 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.88.1">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>Harmony Homeopathy</title>
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/product/">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,800;1,500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
 
-
-    <!-- Bootstrap core CSS -->
-
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-
-    <!-- Custom styles for this template -->
-    <link href="css/product.css" rel="stylesheet">
-    <link href="css/external.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- bootstrap stylesheet -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Font fontawesome -->
+  <script src="https://kit.fontawesome.com/03f7084e41.js" crossorigin="anonymous"></script>
   </head>
-  <body>
 
-<div class="container-fluid">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+
+  <body>
+    <!-- Title section -->
+    <section id="title">
+    <!-- create a navbar -->
+    <div class="container-fluid navbar-container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">Harmony Homeopathy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">Harmony Homeopathy</a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">About Us</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Expertise</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#expertise">Expertise</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Contact Us</a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#contactus">Contact Us</a>
         </li>
-    </div>
-  </div>
-</nav>
-</div>
-
-<main>
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-image" style="background-image: url('banner_2.jpg');">
-    <div class="col-md-6 p-lg-5 mx-auto my-5">
-      <h1 class="display-4 fw-normal">Harmony Homeopathy</h1>
-      <p class="lead fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <a class="btn btn-outline-secondary" href="#">Learn More</a>
-    </div>
-  </div>
-
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-back-custom1" id="hanging-icons">
-    <h2 class="pb-2 border-bottom text-center">We are expert at</h2>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 1</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 2</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 3</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-back-custom1" id="hanging-icons">
-    <!-- h2 class="pb-2 border-bottom text-center">We are expert at</h2 -->
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 4</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 5</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-      <div class="col d-flex align-items-start">
-        <!-- <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-        </div> -->
-        <div>
-          <h2>Illness 6</h2>
-          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-          <!-- <a href="#" class="btn btn-primary">
-            Primary button
-          </a> -->
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-      <div class="mgb-40 padb-30 auto-invert line-b-4 align-center">
-          <h4 class="font-cond-l fg-accent lts-md mgb-10" contenteditable="false">Not Yet Convinced?</h4>
-          <h1 class="font-cond-b fg-text-d lts-md fs-300 fs-300-xs no-mg" contenteditable="false">Read Customer Reviews</h1>
-      </div>
-      <ul class="hash-list cols-3 cols-1-xs pad-30-all align-center text-sm">
-          <li>
-            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
-            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Martha Stewart</h5>
-            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Business Woman - New York</small>
-          </li>
-          <li>
-            <img src="https://bootdey.com/img/Content/avatar/avatar4.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
-            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Ariana Menage</h5>
-            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Recording Artist - Los Angeles</small>
-          </li>
-          <li>
-            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="wpx-100 img-round mgb-20" title="" alt="" data-edit="false" data-editor="field" data-field="src[Image Path]; title[Image Title]; alt[Image Alternate Text]">
-            <p class="fs-110 font-cond-l" contenteditable="false">" Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. "</p>
-            <h5 class="font-cond mgb-5 fg-text-d fs-130" contenteditable="false">Sean Carter</h5>
-            <small class="font-cond case-u lts-sm fs-80 fg-text-l" contenteditable="false">Fund Manager - Chicago</small>
-          </li>
-        </ul>
-  </div>
-
-  <div class="container text-center">
-    <button type="button" class="btn btn-primary btn-lg">Contact Us</button>
-  </div>
-
-</main>
-
-<footer class="container py-5">
-  <div class="row">
-    <div class="col-12 col-md">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-      <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Features</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Cool stuff</a></li>
-        <li><a class="link-secondary" href="#">Random feature</a></li>
-        <li><a class="link-secondary" href="#">Team feature</a></li>
-        <li><a class="link-secondary" href="#">Stuff for developers</a></li>
-        <li><a class="link-secondary" href="#">Another one</a></li>
-        <li><a class="link-secondary" href="#">Last time</a></li>
       </ul>
     </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Resource name</a></li>
-        <li><a class="link-secondary" href="#">Resource</a></li>
-        <li><a class="link-secondary" href="#">Another resource</a></li>
-        <li><a class="link-secondary" href="#">Final resource</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>Resources</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Business</a></li>
-        <li><a class="link-secondary" href="#">Education</a></li>
-        <li><a class="link-secondary" href="#">Government</a></li>
-        <li><a class="link-secondary" href="#">Gaming</a></li>
-      </ul>
-    </div>
-    <div class="col-6 col-md">
-      <h5>About</h5>
-      <ul class="list-unstyled text-small">
-        <li><a class="link-secondary" href="#">Team</a></li>
-        <li><a class="link-secondary" href="#">Locations</a></li>
-        <li><a class="link-secondary" href="#">Privacy</a></li>
-        <li><a class="link-secondary" href="#">Terms</a></li>
-      </ul>
-    </div>
+    </nav>
   </div>
+
+  <div class="container-fluid bg-image intro-section" style="background-image: url('banner_2.jpg');">
+    <h1>Homeopathy at its best!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</section>
+
+      <!-- Expertise section -->
+      <section id="expertise">
+    <div class="container-fluid">
+      <h2 class="expertise-h2">We are specialised in treating chronic and acute diseases</h2>
+
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-file-medical-alt fa-4x"></i>
+            <h2>Illness 1</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-stethoscope fa-4x"></i>
+            <h2>Illness 2</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-running fa-4x"></i>
+            <h2>Illness 3</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-procedures fa-4x"></i>
+            <h2>Illness 4</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-virus fa-4x"></i>
+            <h2>Illness 5</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div>
+            <i class="illness-icon fas fa-heart fa-4x"></i>
+            <h2>Illness 6</h2>
+            <p class="illness-p">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      </section>
+
+      <!-- Reviews section -->
+      <section id="reviews">
+        <div class="container">
+          <h3>Not yet Convinced?</h2>
+          <h2>Read our reviews!</h2>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h5 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h5>
+            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h5 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h5>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </section>
+
+      <!-- Contact Us section -->
+      <section id="contactus">
+        <div class="container">
+          <h1>Get in touch with us!</h1>
+        </div>
+
+        <div class="container contactinfo">
+          <div class="row">
+            <div class="col-lg-6">
+              <h5 class="contactus-h5">Harmony Homeopath clinic</h5>
+              <p class="contactus-p">GAYATRI SANKUL CHS SHOP NO 4, PLOT NO 38 SECTOR 20, KHARGHAR, Navi Mumbai, Maharashtra 410210, India</p>
+              <p class="contactus-p">We are accepting online appointments & few in person consultations at the moment.</p>
+              <h5 class="contactus-h5">Call us on: +91 90299 16987 <i class="whatsapp-icon fab fa-whatsapp-square fx-3"></i></h5>
+              <p></p>
+              <h5 class="contactus-h5">Clinic timings:</h5>
+              <p class="contactus-p-timing">Monday &#160 &#160 &#160 &#160 &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Tuesday &#160 &#160 &#160 &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Wednesday &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Thursday &#160 &#160 &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Friday &#160 &#160 &#160 &#160 &#160 &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Saturday &#160 &#160 &#160 10a.m.–8p.m.</p>
+              <p class="contactus-p-timing">Sunday &#160 &#160 &#160 &#160 Closed</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="col-md-6 maps" >
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.293688381833!2d73.0747685!3d19.0495126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xebf50ec86999e146!2sHARMONY%20HOMEOPATHIC%20CLINIC!5e0!3m2!1sen!2sca!4v1638138281897!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </div>
+          </div>
+      </div>
+      </section>
+
+  <footer id="footer">
+
+    <i class="social-icons fab fa-facebook-f"></i>
+    <i class="social-icons fab fa-twitter"></i>
+    <i class="social-icons fab fa-instagram"></i>
+    <i class="social-icons fas fa-envelope"></i>
+    <p>© Copyright Harmony Homeopathy</p>
+
 </footer>
 
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="css/bootstrap.css" rel="stylesheet">
   </body>
 </html>

@@ -1,0 +1,144 @@
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#title {
+}
+
+/* navbar */
+.navbar-container {
+  background-color: #007200;
+}
+
+.navbar-brand {
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+/* Intro part */
+.intro-section {
+  text-align: center;
+  padding: 10% 20%;
+  background-image: url('banner_2.jpg');
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bg-image {
+background-image: url("banner_2.jpg");
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+/* Expertise section  */
+#expertise {
+  text-align: center;
+  padding: 5% 20%;
+}
+
+.expertise-h2 {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.expertise-illness {
+  padding: 5% 10%;
+}
+
+.illness-icon {
+  color: #007200;
+  margin-bottom: 1rem;
+}
+
+.illness-p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+/* Reviews */
+#reviews {
+  text-align: center;
+  background-color: #90a955;
+  padding: 5% 20%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Contact us  */
+#contactus {
+  text-align: center;
+  padding: 5%;
+}
+
+.contactinfo {
+  padding-top: 7%;
+}
+
+.contactus-h5 {
+  text-align: left;
+}
+
+.contactus-p {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.whatsapp-icon {
+  color: #007200;
+}
+
+.contactus-p-timing {
+  text-align:justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+/* Footer */
+#footer {
+  padding: 10px 15%;
+  text-align: center;
+  background-color: #007200;
+}
+
+.social-icons {
+  margin: 20px 10px;
+}
